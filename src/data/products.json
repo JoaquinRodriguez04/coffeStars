@@ -1,0 +1,155 @@
+[
+    {
+        "id":1,
+        "title": "sandwich jamon y queso",
+        "category":"comida",
+        "price": 3000,
+        "image":"../../src/assets/comida (1).png",
+        "description":"Un clásico y delicioso sandwich que combina tiernas rebanadas de jamón y queso fundido en un pan fresco. El jamón de calidad se complementa con el sabor suave y cremoso del queso, creando una mezcla irresistible de sabores salados y delicados. Es perfecto para satisfacer el hambre en cualquier momento del día.",
+        "stock": 10
+    },     
+    {
+        "id":2,
+        "title": "torta de vainilla y chocolate",
+        "category":"comida",
+        "price": 2500,
+        "image":"../../src/assets/comida (2).png",
+        "description":"Una exquisita combinación de dos sabores clásicos que deleitará tus sentidos. Esta torta presenta capas de bizcocho esponjoso, una capa de vainilla suave y otra de chocolate decadente. Cada bocado es una experiencia indulgente, ya sea que prefieras el dulzor delicado de la vainilla o el intenso sabor a cacao del chocolate.",
+        "stock": 10
+    },
+    {
+        "id":3,
+        "title": "cafe con leche",
+        "category":"bebidas",
+        "price": 1800,
+        "image":"../../src/assets/comida (3).png",
+        "description":"Disfruta de la perfecta armonía entre el café robusto y la leche cremosa. Este equilibrado brebaje combina un espresso aromático con una generosa cantidad de leche caliente, resultando en una taza reconfortante y llena de sabor. Es una opción clásica para aquellos que buscan una bebida suave y deliciosa para comenzar el día.",
+        "stock": 10
+    },     
+    {
+        "id":4,
+        "title": "cappuccino",
+        "category":"bebidas",
+        "price": 3500,
+        "image":"../../src/assets/comida (4).png",
+        "description":"Una obra maestra italiana en una taza, el cappuccino combina un shot de espresso intenso con una capa de espuma de leche aterciopelada y espolvoreado con un toque de cacao en polvo. La combinación de sabores ricos y texturas suaves crea una bebida elegante y satisfactoria que es un verdadero deleite para los amantes del café.",
+        "stock": 10
+    },     
+    {
+        "id":5,
+        "title": "Latte",
+        "category":"bebidas",
+        "price": 1500,
+        "image":"../../src/assets/comida (5).png",
+        "description":"Un café suave y seductor que ofrece una base de espresso suave con una cantidad generosa de leche caliente y una fina capa de espuma en la parte superior. Su sabor equilibrado y su textura sedosa hacen del latte una opción popular para aquellos que buscan disfrutar de un café aromático sin abrumar su paladar.",
+        "stock": 10
+    },     
+    {
+        "id":6,
+        "title": "Americano",
+        "category":"bebidas",
+        "price": 2200,
+        "image":"../../src/assets/comida (6).png",
+        "description":"Una opción clásica y sencilla para los amantes del café, el americano combina un espresso doble con agua caliente, lo que crea una bebida con un sabor fuerte y robusto, pero menos concentrado que un espresso puro. Es perfecto para aquellos que disfrutan de una taza de café aromático y sabroso que se puede disfrutar en grandes sorbos.",
+        "stock": 10
+    },     
+    {
+        "id":7,
+        "title": "Frappé",
+        "category":"bebidas",
+        "price": 1700,
+        "image":"../../src/assets/comida (7).png",
+        "description":"Una bebida refrescante y energizante, el frappé es una mezcla cremosa de café, hielo picado y un toque de azúcar, todo mezclado hasta obtener una consistencia suave y espumosa. Su sabor rico y refrescante lo convierte en una opción popular durante los días calurosos o cuando se busca un impulso de energía con un toque de dulzura.",
+        "stock": 10
+    },     
+    {
+        "id":8,
+        "title": "Brownie",
+        "category":"comida",
+        "price": 1600,
+        "image":"../../src/assets/comida (8).png",
+        "description":"Un placer indulgente para los amantes del chocolate, el brownie es un pastelito denso y suculento, generalmente hecho de chocolate negro y nueces. Con su interior húmedo y su textura ligeramente crujiente en el exterior, el brownie es una delicia irresistible que te transportará a un mundo de sabores intensos y satisfactorios.",
+        "stock": 10
+    },     
+    {
+        "id":9,
+        "title": "Café Espresso",
+        "category":"bebida",
+        "price": 2800,
+        "image":"../../src/assets/comida (9).png",
+        "description":"La esencia pura y concentrada del café, el espresso es una pequeña porción de sabor intenso. Preparado al forzar agua caliente a través de una fina capa de café molido, el resultado es una bebida con cuerpo, aromática y llena de sabores complejos. El espresso es la base de muchas otras bebidas de café y es apreciado por su carácter audaz y su capacidad para despertar los sentidos.",
+        "stock": 10
+    },     
+    {
+        "id":10,
+        "title": "Macchiato",
+        "category":"bebida",
+        "price": 1900,
+        "image":"../../src/assets/comida (10).png",
+        "description":"Un deleite para los amantes del café fuerte con un toque suave, el macchiato combina un shot de espresso intenso con una pequeña cantidad de leche vaporizada. Esta bebida equilibrada presenta una característica mancha de leche que suaviza el sabor sin ocultar la potencia del espresso. Es una opción perfecta para aquellos que buscan un café corto y sabroso.",
+        "stock": 10
+    },     
+    {
+        "id":11,
+        "title": "Mix de Frutos Secos",
+        "category":"snacks",
+        "price": 2900,
+        "image":"../../src/assets/comida (11).png",
+        "description":"Un conjunto de sabores y texturas deliciosos, el mix de frutos secos combina una variedad de nueces y frutas deshidratadas. Puedes encontrar desde almendras crujientes y nueces pecanas dulces hasta pasas jugosas y arándanos secos. Este snack nutritivo es ideal para disfrutar en cualquier momento del día y te brinda una combinación de sabores dulces y salados.",
+        "stock": 10
+    },         
+    {
+        "id":12,
+        "title": "medialuna con dulce de leche",
+        "category":"comida",
+        "price": 3300,
+        "image":"../../src/assets/comida (12).png",
+        "description":"Una deliciosa especialidad argentina, la medialuna con dulce de leche es una mezcla de suavidad y dulzura. Estas medialunas, que se asemejan a cruasanes, están rellenas con una generosa porción de dulce de leche cremoso y espolvoreadas con azúcar en polvo. Cada mordisco es una experiencia decadente que combina el hojaldre delicado con el sabor dulce y caramelizado del dulce de leche.",
+        "stock": 10
+    },     
+    {
+        "id":13,
+        "title": "Cookie de Limón",
+        "category":"snacks",
+        "price": 3300,
+        "image":"../../src/assets/comida (13).png",
+        "description":"Una galleta refrescante y cítrica que te transporta a días soleados, la cookie de limón combina la textura crujiente de una galleta con el sabor vibrante y ácido del limón. Cada bocado es una explosión de frescura y dulzura equilibrada, perfecta para los amantes de los sabores cítricos y el toque de acidez en sus postres.",
+        "stock": 10
+    },     
+    {
+        "id":14,
+        "title": "Cookie de cereales",
+        "category":"snacks",
+        "price": 3300,
+        "image":"../../src/assets/comida (14).png",
+        "description":"Una galleta llena de energía y texturas interesantes, la cookie de cereales combina una base de masa de galleta con una variedad de cereales crujientes, como copos de avena, arroz inflado y trozos de granola. Cada mordisco es una experiencia crujiente y llena de sabores agradables, ofreciendo un toque de nutrición y diversión en cada bocado.",
+        "stock": 10
+    },     
+    {
+        "id":15,
+        "title": "Cookie de cereales y chips",
+        "category":"snacks",
+        "price": 3300,
+        "image":"../../src/assets/comida (15).png",
+        "description":"Una combinación irresistible de sabores y texturas, la cookie de cereales y chips combina una masa de galleta suave con una mezcla de cereales crujientes y trozos de chocolate. Cada bocado es una explosión de dulzura, crujiente y suavidad, creando una experiencia satisfactoria para los amantes de los sabores dulces y los contrastes de texturas.",
+        "stock": 10
+    },     
+    {
+        "id":16,
+        "title": "Cookie de vainilla",
+        "category":"snacks",
+        "price": 3300,
+        "image":"../../src/assets/comida (16).png",
+        "description":"Una galletaclásica y reconfortante, la cookie de vainilla es suave y delicada, con un aroma irresistible. Está hecha con una masa suave y esponjosa, llena de trocitos de vainilla que aportan un sabor dulce y fragante. Cada mordisco te envuelve en una sensación de calidez y nostalgia, perfecta para acompañar una taza de café o disfrutar como un dulce capricho en cualquier momento del día.",
+        "stock": 10
+    },     
+    {
+        "id":17,
+        "title": "Cookie de chocolate",
+        "category":"snacks",
+        "price": 3300,
+        "image":"../../src/assets/comida (17).png",
+        "description":"Un deleite para los amantes del chocolate, la cookie de chocolate es una explosión de sabor y indulgencia. Está hecha con una masa rica y chocolatada, llena de trozos de chocolate derretido que se derriten en tu boca. Cada mordisco es una experiencia decadente y satisfactoria, perfecta para los momentos en los que necesitas un capricho dulce y reconfortante.",
+        "stock": 10
+    }      
+]
