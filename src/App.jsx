@@ -15,17 +15,21 @@ function App() {
   return (
     <CartProvider>
       <BrowserRouter>
-        <NavBar/>
-        <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/products' element={<ItemListContainer/>} />
-          <Route path='/products/:category' element={<ItemListContainer/>}/>
-          <Route path='/detail/:id' element={<ItemDetailContainer/>}/>
-          <Route path='/suscribeCoffe+' element={<Suscribe/>}/>
-          <Route path='/CartProducts' element={<CartProducts/>}/>
-          <Route path='/Chekout' element={<Checkout/>}/>
-        </Routes>
+      <main className='app-container'>
+        <section className='app-top'>
+          <NavBar/>
+          <Routes>
+            <Route path='/coffeStars/' element={<Home/>} />
+            <Route path='/products' element={<ItemListContainer/>} />
+            <Route path='/products/:category' element={<ItemListContainer/>}/>
+            <Route path='/detail/:id' element={<ItemDetailContainer/>}/>
+            <Route path='/suscribeCoffe+' element={<Suscribe/>}/>
+            <Route path='/CartProducts' element={<CartProducts/>}/>
+            <Route path='/Chekout' element={<Checkout/>}/>
+          </Routes>
+        </section>
         <Footer/>
+      </main>
       </BrowserRouter>
     </CartProvider>
   )
