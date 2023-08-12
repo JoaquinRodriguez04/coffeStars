@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const NavBarSections = ( {titleSection, products} ) => {
+
   return (
-   
     <div className="nav-bar-sections">
         <h2 key={products.id} className="title-list">{titleSection}</h2>
         <ul className="items-sections-container">
@@ -13,7 +13,6 @@ const NavBarSections = ( {titleSection, products} ) => {
             <li className="item-section"><Link to={'/products/snacks'}>snacks</Link></li>
         </ul>
     </div>
-  
   )
 }
 
