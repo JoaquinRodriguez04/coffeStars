@@ -37,17 +37,3 @@ const ItemListContainer = () => {
 }
 
 export default ItemListContainer;
-
-
-// import { requestData } from "../helpers/requestData";
-
-// requestData()
-// .then((res) => {
-//     if (category) {
-//         setProducts(res.filter((prod) => prod.category === category));   
-//         setTitleSection(category);
-//     } else{
-//         setProducts(res);   
-//         setTitleSection('todos')
-//     } 
-// });
