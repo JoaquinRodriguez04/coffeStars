@@ -42,14 +42,14 @@ const Suscribe = () => {
 
   return (
     <section className='form-section-container'>
-        <h2 className="form-title suscribe-text">suscribete a nosotros, para obtener descuentos exclusivos y enterarte de todas las novedades!</h2>
       <div className="form-wrapper">
         <form className="form" onSubmit={handleSubmit(send)} >
-          <label htmlFor="">ingrese su nombre</label>
+          <label className="form-title">suscribete a nosotros<span className="form-title-disabled">, para obtener descuentos exclusivos y enterarte de todas las novedades!</span></label>
+          <label>ingrese su nombre</label>
           <input type="text" placeholder='ingrese su nombre' {...register("name")} value={name} onChange={cleanName} />
-          <label htmlFor="">ingrese su apellido</label>
+          <label>ingrese su apellido</label>
           <input type="text" placeholder='ingrese su apellido' {...register("surname")} value={surname} onChange={cleanSurname} />
-          <label htmlFor="">ingrese su email</label>
+          <label>ingrese su email</label>
           <input type="email" placeholder='ingrese su email' {...register("email")} value={email} onChange={clearEmail} />
           <input type="submit" value="enviar" />
           <Link to='/' className="link-volver">volver</Link>
