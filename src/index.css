@@ -32,6 +32,7 @@ body {
   color: var(--clr-white);
   max-width: 1500px;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
 .simbol-price{
@@ -117,7 +118,6 @@ input{
   background-color: var(--clr-btn);
   color: var(--clr-white);
   cursor: pointer;
-  width: 40vh;
 }
 
 input[type="submit"]{
