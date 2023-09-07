@@ -19,7 +19,7 @@ function App() {
         <section className='app-top'>
           <NavBar/>
           <Routes>
-            <Route path='/coffeStars/' element={<Home/>} />
+            <Route path='/' element={<Home/>} />
             <Route path='/products' element={<ItemListContainer/>} />
             <Route path='/products/:category' element={<ItemListContainer/>}/>
             <Route path='/detail/:id' element={<ItemDetailContainer/>}/>
