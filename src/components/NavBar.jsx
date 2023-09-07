@@ -36,7 +36,7 @@ const NavBar = () => {
         </div>
         <div className='navbar-desktop-container'>
           <ul className='nav-items'>
-            <li><Link to="/coffeStars/">inicio</Link></li>
+            <li><Link to="">inicio</Link></li>
             <li><Link to="/products">menu stars</Link></li>
             <li><Link to="/suscribeCoffe+">suscribirse +</Link></li>    
             <li><CartWidget/></li>
